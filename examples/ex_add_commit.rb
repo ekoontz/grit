@@ -1,5 +1,7 @@
 require '../lib/grit'
 
+puts "test"
+
 count = 1
 Dir.chdir("/Users/schacon/projects/atest") do
   r = Grit::Repo.new('.')
